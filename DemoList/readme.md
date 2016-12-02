@@ -23,7 +23,7 @@ page.open(url, function(status){
 			height : dom.height
 		};
 		console.log(page.content);
-		page.render("C:/Users/Administrator/Desktop/phantomjs-2.1.1-windows/bin/svg10.png");
+		page.render("C:/Users/Administrator/Desktop/phantomjs-2.1.1-windows/bin/svg3.png");
 	}else{
 		console.log("fail");
 	}	
@@ -31,4 +31,4 @@ phantom.exit();
 });
 ```
 svg渲染图片
-![image](https://github.com/Makerpol/DemoList/tree/master/DemoList/phantomjs/eg/svg2.png)
+![image](/DemoList/phantomjs/eg/svg3.png)
