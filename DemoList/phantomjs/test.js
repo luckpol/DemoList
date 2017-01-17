@@ -10,7 +10,7 @@ page.open(url, function(status){
 		
 		var dom = page.evaluate(function(){
 			//return jQuery("svg");
-			return document.getElementsByTagName("svg");
+			return document.getElementById('mapRow').getBoundingClientRect();
 		});
 
 		
